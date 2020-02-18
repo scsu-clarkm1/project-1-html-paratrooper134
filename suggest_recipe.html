@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lazy Chef - Suggest a Recipe</title>
+</head>
+<body>
+    <header>
+        <h1>The Lazy Chef</h1>
+    </header>
+    <form action="" method="POST">
+        <div>
+            <label for="username">Username</label><br>
+            <input type="text" name="username" id="username" placeholder="Your account username" size=50>
+        </div>
+        <div>
+            <label for="writername">Writer name</label><br>
+            <input type="text" name="writername" id="writername" placeholder="Writer's name" size=50>
+        </div>
+        <div>
+            <label for="birthday">Birthday</label><br>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+        <!-- Recipe -->
+        <div>
+            <label for="ingredients">Ingredients for recipe.</label><br>
+            <textarea name="ingredients" id="ingredients" placeholder="List ingredients here" cols="50" rows="10">
+            </textarea>
+        </div>
+        <div>
+            <label for="instructions">Instructions for recipe.</label><br>
+            <textarea name="instructions" id="instructions" placeholder="Write instructions for recipe here" cols="50" rows="10">
+            </textarea>
+        </div>
+        <input type="submit" value="Send Request">
+        <input type="reset" value="Reset">
+    </form>
+    <footer>
+        <h5>Copyright 2020</h5>
+    </footer>
+</body>
+</html>
